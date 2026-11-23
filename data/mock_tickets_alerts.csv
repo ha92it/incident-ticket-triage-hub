@@ -1,1 +1,9 @@
-
+id,source,category,severity,status,sla_target_mins,actual_mins,summary
+INC-101,SIEM,Security Alert,Critical,Escalated,30,42,Multiple failed admin login attempts detected from unusual IP
+TKT-102,CS-Portal,Support Ticket,Medium,Open,240,110,Customer portal password reset queue backlog
+INC-103,Cloud-Guard,Security Alert,High,In Progress,60,55,Suspicious IAM role policy change in staging environment
+VND-104,Vendor-Ticket,Vendor Delay,High,Escalated,120,165,Outsourced support vendor delayed response on billing ticket sync
+INC-105,SIEM,Incident,Critical,Open,30,18,High volume of blocked outbound traffic to unknown domain
+TKT-106,CS-Portal,Support Ticket,Low,Resolved,480,210,User request to update notification preferences
+INC-107,Cloud-Guard,Security Alert,Medium,In Progress,120,90,Unencrypted storage bucket warning flagged by posture check
+TKT-108,Vendor-Ticket,Support Ticket,Medium,Open,240,260,Ticket routing rule mismatch reported by internal operations team
